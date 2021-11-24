@@ -21,7 +21,7 @@ spec:
   - key: production
   ingress:
     domain: "apps.cp-ocp.citypaine.com"
-    externalDNS: false
+    externalDNS: true
     namespaceSubDomain: -jx.
     tls:
       email: ""
