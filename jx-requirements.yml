@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: "apps.cp-ocp.citypaine.com"
+    domain: apps.cp-ocp.citypaine.com
     externalDNS: true
     namespaceSubDomain: -jx.
     tls:
